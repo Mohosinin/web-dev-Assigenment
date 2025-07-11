@@ -27,7 +27,7 @@ body,
   padding: 10px 28px;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(78, 71, 255, 0.08);
+  box-shadow: 0 2px 8px rgba(78, 71, 255, 0.1);
 }
 
 .btn-primary:hover {
@@ -36,6 +36,9 @@ body,
 
 .color-primary {
   color: #252432;
+}
+.color-background{
+  color: #f5f6fd
 }
 
 /* Header background */
@@ -208,4 +211,220 @@ nav ul li {
 .stat-label {
   font-size: 1rem;
   color: #555;
+}
+/* Users’ Feedback Section Styles */
+.feedback-section {
+  padding: 48px 0;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.feedback-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.feedback-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  box-shadow:  rgba(80, 80, 160, 0.04);
+  padding: 24px;
+  width: 366.67px;
+  height: 243px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.star-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.feedback-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1E1E1E;
+}
+
+.feedback-card-text {
+  font-size: 1rem;
+  color: #1E1E1E;
+  margin-bottom: 12px;
+  text-align: justify ;
+}
+
+.feedback-reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.reviewer-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #22223b;
+}
+
+.review-date {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+/* Ready to Focus Section Styles */
+.focus-section {
+  text-align: center;
+  padding: 60px 0 40px 0;
+  background: #fff; 
+  width: 1140px;
+  height: 700px;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.focus-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #22223b;
+}
+
+.focus-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.focus-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.focus-image {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 28px;
+  border: 2px solid #e0e7ff;
+  margin-top: 10px;
+}
+/* Let's Get In Touch Section Styles - Improved */
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f6fd;
+  padding: 100px 0;
+  gap: 120px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  border-radius: 24px;
+}
+
+.contact-left h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #18181b;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -2px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  gap: 18px;
+}
+
+.contact-form label {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #22223b;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 16px;
+  border: 1.5px solid #e0e7ff;
+  border-radius: 10px;
+  font-size: 1.08rem;
+  background: #fff;
+  margin-bottom: 10px;
+  resize: none;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #4f46e5;
+  border-color: #4f46e5;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  font-family: inherit;
+}
+/* Footer Section Styles */
+.footer-section {
+  background: #fff;
+  text-align: center;
+  padding: 60px 0 40px 0;
+  border-top: 1px solid #ececec;
+}
+
+.footer-logo {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #4f46e5;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  font-family: 'Inter', 'Raleway', Arial, sans-serif;
+}
+
+.footer-subtitle {
+  color: #8b8ba7;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #8b8ba7;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
 }
